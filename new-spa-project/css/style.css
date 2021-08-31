@@ -1,0 +1,478 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  text-transform: capitalize;
+  background-image: url(../images/service/bacground.png);
+  background-position: 175% 110%;
+}
+
+nav {
+  height: 80px;
+  width: 70%;
+  margin: 50px auto !important;
+  z-index: 100;
+  background-color: rgba(39, 4, 4, .5);
+  border-radius: 20px;
+  position: relative;
+}
+nav .container-box{
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+}
+
+nav .navbar-brand img:last-of-type{
+  display: none;
+}
+nav .navbar-collapse{
+  position: absolute;
+  right: 30px;
+}
+nav .navbar-toggler span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  transition: .5s;
+  margin-right: auto;
+
+}
+
+nav .navbar-toggler {
+  outline: none;
+
+}
+
+nav .navbar-toggler .two {
+  margin: 7px 0;
+}
+
+.top {
+  transform: rotate(-45deg) translate(-2px, 5px);
+}
+
+.bottom {
+  transform: rotate(45deg) translate(-8px, -11px);
+}
+
+.hidden {
+  opacity: 0;
+}
+
+nav .navbar-nav a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff !important;
+  margin-left: 1rem;
+}
+
+
+
+/*end-navbar*/
+
+/* header start */
+
+header {
+  width: 100%;
+
+  display: block;
+}
+
+header .main-image {
+  position: relative;
+  top: -12rem;
+  width: 100%;
+
+}
+
+header .main-image .big-one {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+
+header .second-image {
+  position: absolute;
+  top: 59%;
+  right: -7%;
+}
+
+header .second-image .small-one {
+  width: 70%;
+  height: auto;
+}
+header .third-image .small-two{
+  display: none;
+}
+/* end header */
+
+
+
+/* start services */
+
+
+.testemonials {
+  width: 100%;
+  margin-top: 0px !important;
+  padding: auto;
+  z-index: -1;
+}
+
+.tittle h2 {
+  font-size: clamp(2rem, 8vw, 3.5rem);
+  font-weight: bold;
+  color: rgb(39, 4, 4);
+}
+.tittle img{
+  width: 50%;
+  margin: 30px auto;
+}
+.testemonials .card {
+  background-image: url(../images/service/Group741.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 30px auto;
+  max-width: 330px;
+  border: none;
+  height: 471px;
+  border-radius: 30px;
+  text-transform: capitalize;
+}
+
+.testemonials .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.testemonials .card .head-name h4 {
+  font-family: 'EB Garamond', serif;
+  font-size: 17px;
+  font-weight: bold;
+  white-space: nowrap;
+  letter-spacing: .5px;
+  color: #501818;
+  margin-top: 10px;
+}
+
+.testemonials .card img {
+  width: 95%;
+  height: auto;
+}
+
+.testemonials .card .social {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testemonials .card .social a {
+  text-decoration: none;
+  color: #501818;
+}
+
+.testemonials .card .social-link img {
+  width: 30px;
+  height: auto;
+  margin: 0 auto;
+
+}
+
+.testemonials .card .price {
+  text-transform: uppercase;
+  background-color: #501818;
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 20px;
+  margin-bottom: 65px;
+  position: relative;
+  bottom: 15px;
+}
+
+.testemonials .card .price h4 {
+  font-size: 17px;
+  padding: 5px 12px 0px 12px;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+}
+
+/* end-service */
+
+
+/* start-background image */
+
+.background {
+  height: 50vh;
+  width: 100%;
+  position: relative;
+  margin: 100px auto;
+}
+
+.backgrond-main {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/1.png);
+  background-position: 100% 48%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.backgrond-main .overlay {
+  position: absolute;
+  background-color: rgba(39, 4, 4, .7);
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+}
+
+.background .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+}
+
+.background .content .left-image {
+  flex: .5;
+  width: 70%;
+  height: auto;
+}
+
+.background .left-image img {
+  z-index: 4;
+  width: 50%;
+  height: auto;
+  position: absolute;
+  top: -50px;
+
+}
+
+.background .content .right-text {
+  flex: .5;
+  width: 70%;
+  height: auto;
+  text-align: center;
+}
+
+
+.background .content .right-text p {
+  width: 35%;
+  line-height: 2;
+  font-size: clamp(1rem, 5vw, 2rem);
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  top: 32%;
+  right: 7%;
+  z-index: 99;
+}
+
+/* start stuff */
+
+
+.demo {
+  margin-top: 200px;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  padding: 0;
+}
+.demo .team-box{
+  background-image: url(../images/stuff/Group\ 743.png);
+  max-width: 237px;
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.img-box {
+  position: relative;
+  top: 80px;
+  width: 100%;
+  height: auto;
+ 
+}
+
+.owl-nav {
+  display: none;
+}
+
+
+/* image-overlay */
+
+section.picture {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin: 50px auto 100px;
+}
+
+.picture .backgrond-main2 {
+  background-image: url(../images/fasel.jpg);
+  height: 60vh;
+  background-size: cover;
+  background-position: 100% 50%;
+  background-attachment: fixed;
+  z-index: 1;
+}
+
+.picture .backgrond-main2 .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(39, 4, 4, .6);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+
+/* start footer */
+
+
+
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+
+footer li:hover a {
+  color: rgb(87, 87, 87) !important;
+  text-decoration: none;
+}
+
+.flex-rw {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+
+
+footer {
+  background: rgba(39, 4, 4, 1);
+  margin: 10px auto 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.footer-list-top {
+  width: 33.333%;
+}
+
+.footer-list-top>li {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.footer-list-header {
+  padding: 10px 0 5px 0;
+  color: #fff;
+  font: 2vw "Oswald", sans-serif;
+}
+
+.footer-list-top .paragraph {
+  color: #fff;
+  width: 80%;
+  line-height: 2;
+  margin: 10px auto;
+}
+
+.footer-social-section {
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 5px;
+}
+
+.footer-social-section::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 10px;
+  border-top: 1px solid #ccc;
+  width: calc(100% - 20px);
+}
+
+.footer-social-overlap {
+  position: relative;
+  z-index: 2;
+  background: rgba(39, 4, 4, 1);
+  padding: 0 20px;
+}
+
+.footer-social-connect {
+  display: flex;
+  align-items: center;
+  font: 2em "Oswald", sans-serif;
+  color: #fff;
+}
+
+
+
+.footer-social-overlap>a {
+  font-size: 3em;
+}
+
+.footer-social-overlap>a:not(:first-child) {
+  margin-left: 0.38em;
+}
+
+.footer-bottom-section {
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.footer-bottom-section>div:first-child {
+  margin-right: auto;
+}
+
+.footer-bottom-wrapper {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.footer-address {
+  display: inline;
+  font-style: normal;
+}
+
+
+.footer-social-overlap a:hover .fa-facebook-f {
+  color: blue;
+}
+
+.footer-social-overlap a:hover .fa-whatsapp {
+  color: green;
+}
+
+.footer-social-overlap a:hover .fa-instagram {
+  color: blueviolet;
+}

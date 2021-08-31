@@ -1,0 +1,292 @@
+@media only screen and (max-width: 1024px) {
+  .background {
+    top: 500px;
+
+  }
+
+  header .main-image .big-one {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  .background .content {
+
+    flex-direction: column;
+
+  }
+
+
+  header .main-image {
+    margin-bottom: -100px;
+
+  }
+
+  header .second-image .small-one {
+    display: none;
+  }
+
+  .background .content .left-image {
+    width: 100%;
+  }
+
+  .background .left-image img {
+    z-index: 4;
+    width: 80%;
+    height: auto;
+    top: -78%;
+    position: absolute;
+  }
+
+  .background .content .right-text p {
+    width: 60% !important;
+    top: 32%;
+    right: 20%;
+  }
+}
+/* @media screen and (min-width: 991px) {
+  .team-box {
+    max-width: 270px;
+    display: block;
+    margin: 0 auto 30px;
+  }
+} */
+@media only screen and (max-width: 768px) {
+  nav {
+    height: 80px;
+    width: 100%;
+    margin: 0 !important;
+    z-index: 100;
+    background-color: #fff;
+    border-radius: 0;
+  }
+  .navbar-light .navbar-toggler {
+    position: absolute;
+    right: 30px;
+  }
+  nav .navbar-toggler span {
+    background: #501818;
+  }
+
+  nav .navbar-brand img:last-of-type {
+    display: block;
+    position: absolute;
+    top: -29px;
+  }
+
+  nav .navbar-brand img:first-of-type {
+    display: none;
+  }
+
+  nav .navbar-collapse {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(80, 24, 24, .5);
+    top: 80px;
+    right: 0;
+    text-align: center;
+    padding: 30px 0;
+}
+
+  header .main-image {
+    position: relative;
+    margin-top: 193px;
+
+
+  }
+
+  header .main-image .big-one {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+  }
+
+  .team-section .row>.col-xs-6,
+  .team-section .row>.s6 {
+    width: 100%;
+  }
+
+  .demo {
+    margin-top: 550px;
+  }
+
+  .footer-list-header {
+    font-size: 1.5em;
+  }
+
+  .footer-list-anchor {
+    font-size: 1em;
+  }
+
+  .footer-social-connect {
+    font-size: 2em;
+  }
+
+  .footer-social-overlap>a {
+    font-size: 2em;
+  }
+
+  .footer-bottom-wrapper {
+    font-size: 1.3em;
+  }
+
+}
+
+@media only screen and (max-width: 568px) {
+  header .main-image .third-image img{
+    display: block;
+    width: 80%;
+    height: auto;
+   
+  }
+  header .main-image .third-image{
+    
+      position: absolute;
+      bottom: -80px;
+  
+  }
+
+  .picture .backgrond-main2 {
+    background-image: url(../images/fasel.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: 53% 50%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+
+  .footer-list-top {
+    width: 100%;
+  }
+
+  .footer-list-header {
+    font-size: 1.5em;
+  }
+
+  .footer-list-anchor {
+    font-size: .8em;
+  }
+
+  .footer-social-section {
+    justify-content: center;
+  }
+
+  .footer-social-section::after {
+    top: 25%;
+  }
+
+  .footer-social-connect {
+    margin-bottom: 10px;
+    padding: 0 10px;
+  }
+
+  .footer-social-overlap {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-social-icons-wrapper {
+    width: 100%;
+    padding: 0;
+  }
+
+  .footer-social-overlap>a:not(:first-child) {
+    margin-left: 20px;
+  }
+
+  .footer-bottom-section {
+    padding: 0 5px 10px 5px;
+  }
+
+  .footer-bottom-wrapper {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .background .content .right-text p {
+    width: 77% !important;
+    top: 23%;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .background .left-image img {
+    width: 80%;
+    top: -59%;
+  }
+
+  .background {
+    top: 225px;
+
+  }
+  header .main-image .big-one {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
+  .backgrond-main {
+    height: 85%;
+   
+  }
+  
+  .backgrond-main .overlay {
+   
+    height: 85%;
+  }
+  .demo {
+    margin-top: 300px;
+  }
+
+  .footer-social-overlap>a {
+    margin: auto;
+  }
+
+  .footer-social-overlap>a:not(:first-child) {
+    margin-left: 0;
+  }
+
+  .footer-bottom-rights {
+    display: block;
+  }
+  .testemonials .tittle img{
+    width: 70%;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+  .testemonials .card {
+    height: 390px;
+    max-width: 275px;
+    
+}
+
+.testemonials .card .head-name h4 {
+  font-size: 13px;
+  margin-top: 25px;
+}
+  .footer-list-header {
+    font-size: 1.5em;
+  }
+
+  .footer-list-anchor {
+    font-size: .6em;
+  }
+
+  .footer-social-connect {
+    font-size: 2em;
+  }
+
+  .footer-social-overlap>a {
+    font-size: 2em;
+  }
+
+  .footer-bottom-wrapper {
+    font-size: 1.3em;
+  }
+}
